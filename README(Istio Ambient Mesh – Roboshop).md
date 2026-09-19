@@ -1,7 +1,9 @@
 # 🚀 Istio Ambient Mesh – Roboshop
 
 ## 📌 Overview
-
+```
+Istio offical: https://istio.io/latest/docs/overview/quickstart/
+```
 This project demonstrates **Istio Ambient Mode** with the Kubernetes-based **Roboshop microservices application**.
 
 Istio Ambient Mesh provides service-mesh capabilities without requiring an Envoy sidecar inside every application pod.
