@@ -414,6 +414,15 @@ kubectl logs \
   -l app=ztunnel
 ```
 
+create service account frontend in namespace roboshop
+```
+
+venka@Think-VVRAM MINGW64 ~
+$ kubectl create sa frontend -n roboshop
+
+serviceaccount/frontend created
+
+```
 ---
 
 # 🔒 AuthorizationPolicy
