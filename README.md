@@ -480,12 +480,12 @@ spec:
     - route:
         - destination:
             host: catalogue
-            subset: v1
+            subset: 1.0.0   # 1.0.0 in my case not v1 
           weight: 90
 
         - destination:
             host: catalogue
-            subset: v2
+            subset: 1.0.1  # 1.0.1 in my case not v1
           weight: 10
 ```
 
