@@ -485,7 +485,7 @@ spec:
 
         - destination:
             host: catalogue
-            subset: 1.0.1  # 1.0.1 in my case not v1
+            subset: 1.0.1  # 1.0.1 in my case not v2
           weight: 10
 ```
 
